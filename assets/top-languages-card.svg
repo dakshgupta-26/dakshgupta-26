@@ -1,10 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 145" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient -->
+    <linearGradient id="lang-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16"/>
       <stop offset="50%" stop-color="#0d111a"/>
       <stop offset="100%" stop-color="#070a12"/>
     </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="lang-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <style>
@@ -17,41 +27,57 @@
     .card-border { animation: cardPulse 4s ease-in-out infinite; }
   </style>
 
-  <!-- Card Container -->
-  <rect x="2" y="2" width="496" height="126" rx="10" fill="url(#bg-grad)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+  <!-- Card Background Container -->
+  <rect x="2" y="2" width="846" height="141" rx="10" fill="url(#lang-bg)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
 
-  <text x="20" y="28" fill="#818cf8" class="code-font" font-size="13" font-weight="700">⚙️ Most Used Languages</text>
-  <line x1="20" y1="38" x2="480" y2="38" stroke="#1e293b" stroke-width="1"/>
+  <!-- Title Header -->
+  <text x="20" y="30" fill="#818cf8" class="code-font" font-size="13" font-weight="700">⚙️ Most Used Programming Languages &amp; Stack</text>
+  <line x1="20" y1="42" x2="830" y2="42" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Multi-color Language Bar -->
-  <g transform="translate(20, 50)">
-    <rect x="0" y="0" width="175" height="10" rx="3" fill="#3178c6"/> <!-- TypeScript -->
-    <rect x="178" y="0" width="130" height="10" rx="3" fill="#f7df1e"/> <!-- JavaScript -->
-    <rect x="311" y="0" width="75" height="10" rx="3" fill="#f34b7d"/> <!-- C++ -->
-    <rect x="389" y="0" width="45" height="10" rx="3" fill="#e34c26"/> <!-- HTML/CSS -->
-    <rect x="437" y="0" width="23" height="10" rx="3" fill="#3572A5"/> <!-- Python -->
+  <!-- Multi-color Language Progress Bar (810px total width) -->
+  <g transform="translate(20, 56)">
+    <rect x="0" y="0" width="305" height="12" rx="4" fill="#3178c6"/> <!-- TypeScript 38% -->
+    <rect x="309" y="0" width="225" height="12" rx="4" fill="#f7df1e"/> <!-- JavaScript 28% -->
+    <rect x="538" y="0" width="128" height="12" rx="4" fill="#f59e0b"/> <!-- Java & C++ 16% -->
+    <rect x="670" y="0" width="95" height="12" rx="4" fill="#38bdf8"/> <!-- HTML/CSS 12% -->
+    <rect x="769" y="0" width="41" height="12" rx="4" fill="#c084fc"/> <!-- Python & SQL 6% -->
   </g>
 
-  <!-- Language Labels Grid -->
-  <g transform="translate(20, 78)">
-    <!-- TS -->
-    <circle cx="6" cy="6" r="4" fill="#3178c6"/>
-    <text x="16" y="9" fill="#e2e8f0" class="code-font" font-size="11">TypeScript 38%</text>
+  <!-- Language Legend Details (5 Columns) -->
+  <g transform="translate(20, 96)">
+    <!-- TypeScript -->
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="5" fill="#3178c6" filter="url(#lang-glow)"/>
+      <text x="16" y="10" fill="#f8fafc" class="code-font" font-size="11.5" font-weight="700">TypeScript</text>
+      <text x="16" y="26" fill="#94a3b8" class="code-font" font-size="10.5">38% • Core Stack</text>
+    </g>
 
-    <!-- JS -->
-    <circle cx="130" cy="6" r="4" fill="#f7df1e"/>
-    <text x="140" y="9" fill="#e2e8f0" class="code-font" font-size="11">JavaScript 28%</text>
+    <!-- JavaScript -->
+    <g transform="translate(170, 0)">
+      <circle cx="6" cy="6" r="5" fill="#f7df1e" filter="url(#lang-glow)"/>
+      <text x="16" y="10" fill="#f8fafc" class="code-font" font-size="11.5" font-weight="700">JavaScript</text>
+      <text x="16" y="26" fill="#94a3b8" class="code-font" font-size="10.5">28% • Web &amp; Node</text>
+    </g>
 
-    <!-- C++ -->
-    <circle cx="250" cy="6" r="4" fill="#f34b7d"/>
-    <text x="260" y="9" fill="#e2e8f0" class="code-font" font-size="11">C++ 16%</text>
+    <!-- Java & C++ -->
+    <g transform="translate(340, 0)">
+      <circle cx="6" cy="6" r="5" fill="#f59e0b" filter="url(#lang-glow)"/>
+      <text x="16" y="10" fill="#f8fafc" class="code-font" font-size="11.5" font-weight="700">Java &amp; C++</text>
+      <text x="16" y="26" fill="#94a3b8" class="code-font" font-size="10.5">16% • DSA Core</text>
+    </g>
 
-    <!-- HTML/CSS -->
-    <circle cx="330" cy="6" r="4" fill="#e34c26"/>
-    <text x="340" y="9" fill="#e2e8f0" class="code-font" font-size="11">HTML/CSS 12%</text>
+    <!-- HTML & CSS -->
+    <g transform="translate(510, 0)">
+      <circle cx="6" cy="6" r="5" fill="#38bdf8" filter="url(#lang-glow)"/>
+      <text x="16" y="10" fill="#f8fafc" class="code-font" font-size="11.5" font-weight="700">HTML &amp; CSS</text>
+      <text x="16" y="26" fill="#94a3b8" class="code-font" font-size="10.5">12% • Styling</text>
+    </g>
 
-    <!-- Python -->
-    <circle cx="435" cy="6" r="4" fill="#3572A5"/>
-    <text x="445" y="9" fill="#e2e8f0" class="code-font" font-size="11">Python 6%</text>
+    <!-- Python & SQL -->
+    <g transform="translate(680, 0)">
+      <circle cx="6" cy="6" r="5" fill="#c084fc" filter="url(#lang-glow)"/>
+      <text x="16" y="10" fill="#f8fafc" class="code-font" font-size="11.5" font-weight="700">Python &amp; SQL</text>
+      <text x="16" y="26" fill="#94a3b8" class="code-font" font-size="10.5">6% • Scripts &amp; DB</text>
+    </g>
   </g>
 </svg>

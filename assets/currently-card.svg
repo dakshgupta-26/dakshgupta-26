@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="curr-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="curr-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.3; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.1); }
+    }
+    @keyframes borderGlow {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.8; }
+    }
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .card-border { animation: borderGlow 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Main Box Container -->
+  <rect x="2" y="2" width="846" height="256" rx="14" fill="url(#curr-bg-grad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+
+  <!-- Window Header Bar -->
+  <path d="M 2 14 A 12 12 0 0 1 14 2 L 836 2 A 12 12 0 0 1 848 14 L 848 36 L 2 36 Z" fill="#0f172a" fill-opacity="0.8"/>
+  <line x1="2" y1="36" x2="848" y2="36" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Window Control Dots & Header Text -->
+  <circle cx="20" cy="19" r="4.5" fill="#ef4444"/>
+  <circle cx="36" cy="19" r="4.5" fill="#f59e0b"/>
+  <circle cx="52" cy="19" r="4.5" fill="#10b981"/>
+
+  <text x="72" y="23" fill="#94a3b8" class="code-font" font-size="11" font-weight="600">dakshgupta.status // active-focus-stream</text>
+
+  <!-- Live Pulse Badge -->
+  <g transform="translate(715, 10)">
+    <rect width="120" height="18" rx="9" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <circle cx="12" cy="9" r="3.5" fill="#10b981" filter="url(#curr-glow)"/>
+    <text x="22" y="13" fill="#34d399" class="code-font" font-size="9.5" font-weight="700">LIVE STREAM</text>
+  </g>
+
+  <!-- Row 1: BUILDING -->
+  <g transform="translate(20, 48)">
+    <rect width="810" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <rect x="10" y="7" width="85" height="20" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="18" y="21" fill="#38bdf8" class="code-font" font-size="9.5" font-weight="700">🔭 BUILDING</text>
+    <text x="110" y="21" fill="#cbd5e1" class="main-font" font-size="11.5" font-weight="500">
+      Scalable full-stack applications &amp; telemetry systems using React, Node.js, Express, MongoDB &amp; AI
+    </text>
+  </g>
+
+  <!-- Row 2: SOLVING -->
+  <g transform="translate(20, 88)">
+    <rect width="810" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <rect x="10" y="7" width="85" height="20" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="0.8"/>
+    <text x="18" y="21" fill="#fbbf24" class="code-font" font-size="9.5" font-weight="700">🧠 SOLVING</text>
+    <text x="110" y="21" fill="#cbd5e1" class="main-font" font-size="11.5" font-weight="500">
+      Advanced Data Structures &amp; Algorithms challenges (LeetCode Knight 1887, 800+ Solved)
+    </text>
+  </g>
+
+  <!-- Row 3: EXPLORING -->
+  <g transform="translate(20, 128)">
+    <rect width="810" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <rect x="10" y="7" width="95" height="20" rx="4" fill="#1e293b" stroke="#34d399" stroke-width="0.8"/>
+    <text x="18" y="21" fill="#34d399" class="code-font" font-size="9.5" font-weight="700">☁️ EXPLORING</text>
+    <text x="120" y="21" fill="#cbd5e1" class="main-font" font-size="11.5" font-weight="500">
+      Cloud Native Architecture — AWS, Docker, Kubernetes, Linux &amp; modern CI/CD deployment pipelines
+    </text>
+  </g>
+
+  <!-- Row 4: LEARNING -->
+  <g transform="translate(20, 168)">
+    <rect width="810" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <rect x="10" y="7" width="90" height="20" rx="4" fill="#1e293b" stroke="#818cf8" stroke-width="0.8"/>
+    <text x="18" y="21" fill="#818cf8" class="code-font" font-size="9.5" font-weight="700">⚙️ LEARNING</text>
+    <text x="115" y="21" fill="#cbd5e1" class="main-font" font-size="11.5" font-weight="500">
+      System Design patterns, High-Throughput Microservices architecture, &amp; Database performance
+    </text>
+  </g>
+
+  <!-- Row 5: TARGETING -->
+  <g transform="translate(20, 208)">
+    <rect width="810" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <rect x="10" y="7" width="95" height="20" rx="4" fill="#1e293b" stroke="#c084fc" stroke-width="0.8"/>
+    <text x="18" y="21" fill="#c084fc" class="code-font" font-size="9.5" font-weight="700">🎯 TARGETING</text>
+    <text x="120" y="21" fill="#cbd5e1" class="main-font" font-size="11.5" font-weight="500">
+      Software Development Engineer (SDE) roles &amp; high-impact full-stack / backend engineering opportunities
+    </text>
+  </g>
+</svg>

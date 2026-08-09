@@ -138,9 +138,11 @@ Whenever you want to update your profile (e.g. adding new projects, updating ach
 * `assets/hero-banner.svg`: Sleek, dark developer header card with simulated IDE top-bar, animated circuit nodes, gradient typography, and glowing system badges.
 * `assets/about-card.svg`: Modern glassmorphic Bento Grid card with pulsing animated borders, micro tech badges, and structured engineering bio.
 * `assets/terminal-console.svg`: Animated zsh terminal window console displaying interactive `whoami`, `role`, `focus`, `currently-learning`, and `status` outputs with a blinking cursor and realistic window controls.
+* `assets/currently-card.svg`: Animated glassmorphic live status stream card featuring Building, Solving, Exploring, Learning, and Targeting focus rows with live pulse badges.
 * `assets/github-stats-card.svg`: Custom, high-availability animated SVG card displaying 120+ total contributions and key developer metrics.
 * `assets/top-languages-card.svg`: Animated multi-color language breakdown card with clean progress visualization.
-* `assets/leetcode-dashboard.png`: Official LeetCode profile dashboard screenshot displaying 781 solved problems, Knight rating (1,887), Top 5% ranking, and badges.
+* `assets/leetcode-card.svg`: Custom animated SVG card showcasing Knight rating (1,887), Top 5% ranking (#42,693), and Easy (218) / Medium (433) / Hard (130) problem breakdown.
+* `assets/projects-card.svg`: Animated glassmorphic Featured Projects showcase SVG with glowing neon borders, clickable titles & action buttons (`Source Code` & `Live Demo`), and tech stack pills.
 * `assets/achievements-card.svg`: Animated glassmorphic trophy card showcasing Knight badge (1900+ rating), Global Rank 385 (Top 1.4%), and 800+ solved problems.
 * `assets/animated-divider.svg`: Lightweight glowing horizontal divider line with sliding accent light bead.
 

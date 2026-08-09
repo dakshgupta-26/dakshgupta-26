@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 195" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad-lc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="amber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="soft-glow-lc" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cardPulse {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.8; }
+    }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .card-border { animation: cardPulse 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Main Background Container -->
+  <rect x="2" y="2" width="416" height="191" rx="10" fill="url(#bg-grad-lc)" stroke="#ffa116" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+
+  <!-- Card Title -->
+  <text x="20" y="30" fill="#ffa116" class="code-font" font-size="13" font-weight="700">🧩 LeetCode Progress &amp; Rank</text>
+  <line x1="20" y1="40" x2="396" y2="40" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Contest Rating & Knight Badge -->
+  <g transform="translate(20, 52)">
+    <rect width="180" height="58" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Contest Rating</text>
+    <text x="14" y="46" fill="#fbbf24" class="code-font" font-size="18" font-weight="800" filter="url(#soft-glow-lc)">1,887 🛡️</text>
+    <rect x="110" y="30" width="58" height="18" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="0.8"/>
+    <text x="117" y="43" fill="#fbbf24" class="code-font" font-size="9" font-weight="700">KNIGHT</text>
+  </g>
+
+  <!-- Global Rank -->
+  <g transform="translate(216, 52)">
+    <rect width="180" height="58" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Global Ranking</text>
+    <text x="14" y="46" fill="#38bdf8" class="code-font" font-size="17" font-weight="800">Top 5%</text>
+    <text x="95" y="45" fill="#64748b" class="code-font" font-size="10">#42,693</text>
+  </g>
+
+  <!-- Problem Solving Breakdown (Easy / Medium / Hard) -->
+  <g transform="translate(20, 120)">
+    <rect width="376" height="58" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Easy -->
+    <text x="16" y="24" fill="#00b8a3" class="code-font" font-size="10" font-weight="700">EASY</text>
+    <text x="16" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">218</text>
+
+    <line x1="120" y1="12" x2="120" y2="48" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Medium -->
+    <text x="136" y="24" fill="#ffc01e" class="code-font" font-size="10" font-weight="700">MEDIUM</text>
+    <text x="136" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">433</text>
+
+    <line x1="250" y1="12" x2="250" y2="48" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Hard -->
+    <text x="266" y="24" fill="#ff375f" class="code-font" font-size="10" font-weight="700">HARD</text>
+    <text x="266" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">130</text>
+  </g>
+</svg>

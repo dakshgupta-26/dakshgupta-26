@@ -1,17 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 195" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg-grad-gh" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16"/>
       <stop offset="50%" stop-color="#0d111a"/>
       <stop offset="100%" stop-color="#070a12"/>
     </linearGradient>
 
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#818cf8"/>
-    </linearGradient>
-
-    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <filter id="soft-glow-gh" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -25,47 +20,43 @@
       0%, 100% { stroke-opacity: 0.3; }
       50% { stroke-opacity: 0.8; }
     }
-    @keyframes textGlow {
-      0%, 100% { opacity: 0.95; }
-      50% { opacity: 1; }
-    }
     .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
     .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
     .card-border { animation: cardPulse 4s ease-in-out infinite; }
   </style>
 
   <!-- Card Background -->
-  <rect x="2" y="2" width="416" height="191" rx="10" fill="url(#bg-grad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+  <rect x="2" y="2" width="416" height="191" rx="10" fill="url(#bg-grad-gh)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
 
   <!-- Card Title Header -->
-  <text x="20" y="32" fill="#38bdf8" class="code-font" font-size="14" font-weight="700">⚡ Daksh's GitHub Stats</text>
+  <text x="20" y="32" fill="#38bdf8" class="code-font" font-size="14" font-weight="700">⚡ Daksh's GitHub Metrics</text>
   <line x1="20" y1="44" x2="396" y2="44" stroke="#1e293b" stroke-width="1"/>
 
   <!-- Metric 1: Total Contributions -->
   <g transform="translate(20, 60)">
     <rect width="180" height="56" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="14" y="26" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Total Contributions</text>
-    <text x="14" y="46" fill="#38bdf8" class="code-font" font-size="18" font-weight="800" filter="url(#soft-glow)">120+</text>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Total Contributions</text>
+    <text x="14" y="46" fill="#38bdf8" class="code-font" font-size="18" font-weight="800" filter="url(#soft-glow-gh)">121+</text>
   </g>
 
   <!-- Metric 2: Public Repositories -->
   <g transform="translate(216, 60)">
     <rect width="180" height="56" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="14" y="26" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Public Repositories</text>
-    <text x="14" y="46" fill="#818cf8" class="code-font" font-size="18" font-weight="800">12+</text>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Public Repositories</text>
+    <text x="14" y="46" fill="#818cf8" class="code-font" font-size="18" font-weight="800">15+</text>
   </g>
 
-  <!-- Metric 3: Active Code Contributions -->
+  <!-- Metric 3: Total Commits -->
   <g transform="translate(20, 124)">
     <rect width="180" height="56" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="14" y="26" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Global Problem Solving</text>
-    <text x="14" y="46" fill="#c084fc" class="code-font" font-size="18" font-weight="800">Top 5%</text>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Code Commits</text>
+    <text x="14" y="46" fill="#34d399" class="code-font" font-size="18" font-weight="800">120+ Commits</text>
   </g>
 
-  <!-- Metric 4: Pull Requests & Commits -->
+  <!-- Metric 4: Developer Activity -->
   <g transform="translate(216, 124)">
     <rect width="180" height="56" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="14" y="26" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">LeetCode Rating</text>
-    <text x="14" y="46" fill="#f59e0b" class="code-font" font-size="18" font-weight="800">1,887 (Knight)</text>
+    <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Developer Status</text>
+    <text x="14" y="46" fill="#fbbf24" class="code-font" font-size="16" font-weight="800">Active Builder</text>
   </g>
 </svg>

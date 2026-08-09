@@ -10,7 +10,7 @@
 
   <!-- Animated Typing Title -->
   <a href="https://github.com/dakshgupta-26">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&height=50&lines=Software+Engineer;Full-Stack+Developer;Backend+Enthusiast;DSA+Problem+Solver" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&height=50&lines=Software+Engineer;Full-Stack+Developer;Backend+Developer;Problem+Solver" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -56,11 +56,7 @@
 
 ## 🚀 Currently
 
-* 🔭 **Building:** Scalable full-stack applications with React, Node.js, and cloud backends.
-* 🧠 **Solving:** Advanced Data Structures & Algorithms to hone algorithmic problem-solving.
-* ☁️ **Exploring:** AWS, Docker, Kubernetes, and modern cloud deployment pipelines.
-* ⚙️ **Learning:** System design patterns, microservices architecture, and database optimization.
-* 📚 **Preparing:** For Software Engineering (SDE) roles and technical opportunities.
+<img src="./assets/currently-card.svg" width="100%" alt="Daksh Gupta Active Focus &amp; Status Stream" />
 
 ---
 
@@ -131,7 +127,7 @@
     <tr>
       <td colspan="2" align="center">
         <a href="https://github.com/dakshgupta-26">
-          <img src="./assets/top-languages-card.svg" alt="Top Languages" width="500" />
+          <img src="./assets/top-languages-card.svg" alt="Top Languages" width="100%" />
         </a>
       </td>
     </tr>
@@ -155,40 +151,15 @@
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏋️ <a href="https://fit-track-neon-xi.vercel.app/">FitTrack AI</a></h3>
-      <p>AI-powered wellness platform designed to provide personalized health insights, telemetry tracking, and automated workout recommendations.</p>
-      <p><strong>Tech Stack:</strong> React • Node.js • MongoDB • Tailwind CSS • AI</p>
-      <ul>
-        <li>Personalized workout &amp; diet recommendations</li>
-        <li>Interactive analytics &amp; progress visualization</li>
-        <li>User telemetry &amp; bio-metric tracking</li>
-        <li>Real-time community &amp; activity feed</li>
-      </ul>
-      <p>
-        <a href="https://github.com/dakshgupta-26/FIT-TRACK"><strong>📂 Source Code</strong></a> | 
-        <a href="https://fit-track-neon-xi.vercel.app/"><strong>🌐 Live Demo</strong></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏃 <a href="https://fit-track-neon-xi.vercel.app/">SprintForge</a></h3>
-      <p>Agile project management and sprint acceleration platform built to streamline team workflows, task tracking, and developer velocity.</p>
-      <p><strong>Tech Stack:</strong> TypeScript • React • Node.js • Express • PostgreSQL</p>
-      <ul>
-        <li>Interactive Kanban &amp; Sprint planning boards</li>
-        <li>Agile velocity metrics &amp; burndown analytics</li>
-        <li>Task automation &amp; developer workflow integration</li>
-        <li>Role-based access control &amp; team workspaces</li>
-      </ul>
-      <p>
-        <a href="https://github.com/dakshgupta-26/SprintForge"><strong>📂 Source Code</strong></a> | 
-        <a href="https://fit-track-neon-xi.vercel.app/"><strong>🌐 Live Demo</strong></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<img src="./assets/projects-card.svg" width="100%" alt="Daksh Gupta Featured Projects Showcase" />
+
+<br />
+
+<p align="center">
+  🏋️ <strong>FitTrack AI:</strong> <a href="https://github.com/dakshgupta-26/FIT-TRACK">📂 Source Code</a> • <a href="https://fit-track-neon-xi.vercel.app/">🌐 Live Demo</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  🏃 <strong>SprintForge:</strong> <a href="https://github.com/dakshgupta-26/SprintForge">📂 Source Code</a> • <a href="https://fit-track-neon-xi.vercel.app/">🌐 Live Demo</a>
+</p>
 
 ---
 
@@ -196,9 +167,20 @@
 
 <div align="center">
 
-  <a href="https://leetcode.com/u/Daksh_26/">
-    <img src="./assets/leetcode-dashboard.png" width="100%" alt="Daksh Gupta LeetCode Profile Dashboard (Knight 1887)" style="border-radius: 10px;" />
-  </a>
+  <table border="0">
+    <tr>
+      <td align="center" width="50%" valign="middle">
+        <a href="https://leetcode.com/u/Daksh_26/">
+          <img src="https://leetcard.jacoblin.cool/Daksh_26?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%" />
+        </a>
+      </td>
+      <td align="center" width="50%" valign="middle">
+        <a href="https://leetcode.com/u/Daksh_26/">
+          <img src="./assets/leetcode-card.svg" alt="LeetCode Progress &amp; Rating" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
   <p align="center">
     <strong>Focus Topics:</strong> Array • String • Hash Table • Dynamic Programming • Trees • Graphs • Two Pointers • Binary Search

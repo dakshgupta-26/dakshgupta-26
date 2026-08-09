@@ -123,13 +123,17 @@
     <rect x="0" y="0" width="105" height="24" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
     <text x="12" y="16" fill="#38bdf8" class="code-text" font-size="11" font-weight="600">⚡ Full-Stack</text>
 
-    <!-- Pill 2: Backend Architecture -->
-    <rect x="115" y="0" width="165" height="24" rx="6" fill="#1e293b" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="127" y="16" fill="#818cf8" class="code-text" font-size="11" font-weight="600">⚙️ Backend Systems</text>
+    <!-- Pill 2: Backend Dev -->
+    <rect x="115" y="0" width="130" height="24" rx="6" fill="#1e293b" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="127" y="16" fill="#818cf8" class="code-text" font-size="11" font-weight="600">⚙️ Backend Dev</text>
 
-    <!-- Pill 3: DSA -->
-    <rect x="290" y="0" width="145" height="24" rx="6" fill="#1e293b" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="302" y="16" fill="#c084fc" class="code-text" font-size="11" font-weight="600">🧠 DSA &amp; Algo</text>
+    <!-- Pill 3: Problem Solver -->
+    <rect x="255" y="0" width="140" height="24" rx="6" fill="#1e293b" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="267" y="16" fill="#c084fc" class="code-text" font-size="11" font-weight="600">🧠 Problem Solver</text>
+
+    <!-- Pill 4: Cloud & DevOps -->
+    <rect x="405" y="0" width="145" height="24" rx="6" fill="#1e293b" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="417" y="16" fill="#34d399" class="code-text" font-size="11" font-weight="600">☁️ Cloud &amp; DevOps</text>
   </g>
 
   <!-- Bottom Accent Line -->
