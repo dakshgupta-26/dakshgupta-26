@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ft-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="ft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cardPulse {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.85; }
+    }
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .card-border { animation: cardPulse 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Card Outer Container -->
+  <rect x="2" y="2" width="396" height="236" rx="10" fill="url(#ft-bg)" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.2" class="card-border"/>
+
+  <!-- Category Tag -->
+  <rect x="16" y="16" width="135" height="20" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="24" y="30" fill="#38bdf8" class="code-font" font-size="9.5" font-weight="700">🚀 FULL-STACK &amp; AI</text>
+
+  <!-- Title -->
+  <text x="16" y="65" fill="#38bdf8" class="main-font" font-size="22" font-weight="800" filter="url(#ft-glow)">🏋️ FitTrack AI</text>
+
+  <!-- Description -->
+  <text x="16" y="88" fill="#cbd5e1" class="main-font" font-size="11.5">
+    <tspan x="16" dy="0">AI-powered wellness platform designed for personalized</tspan>
+    <tspan x="16" dy="17">health telemetry tracking &amp; automated workout plans.</tspan>
+  </text>
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(16, 126)">
+    <rect x="0" y="0" width="52" height="18" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="7" y="12" fill="#38bdf8" class="code-font" font-size="9">React</text>
+
+    <rect x="58" y="0" width="60" height="18" rx="4" fill="#0f172a" stroke="#818cf8" stroke-width="0.8"/>
+    <text x="65" y="12" fill="#818cf8" class="code-font" font-size="9">Node.js</text>
+
+    <rect x="124" y="0" width="68" height="18" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="0.8"/>
+    <text x="131" y="12" fill="#34d399" class="code-font" font-size="9">MongoDB</text>
+
+    <rect x="198" y="0" width="60" height="18" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="205" y="12" fill="#38bdf8" class="code-font" font-size="9">Tailwind</text>
+
+    <rect x="264" y="0" width="36" height="18" rx="4" fill="#0f172a" stroke="#c084fc" stroke-width="0.8"/>
+    <text x="271" y="12" fill="#c084fc" class="code-font" font-size="9">AI</text>
+  </g>
+
+  <!-- Bullet Features -->
+  <g transform="translate(16, 166)" fill="#e2e8f0" class="main-font" font-size="11">
+    <text x="0" y="0">⚡ Personalized workout &amp; diet AI recommendation engine</text>
+    <text x="0" y="20">📈 Interactive telemetry analytics &amp; progress tracking</text>
+    <text x="0" y="40">👥 Real-time community feeds &amp; activity telemetry</text>
+  </g>
+</svg>

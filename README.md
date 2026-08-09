@@ -151,15 +151,40 @@
 
 ## 🚀 Featured Projects
 
-<img src="./assets/projects-card.svg" width="100%" alt="Daksh Gupta Featured Projects Showcase" />
+<table border="0">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://fit-track-neon-xi.vercel.app/">
+        <img src="./assets/fittrack-card.svg" width="100%" alt="FitTrack AI" />
+      </a>
+      <br />
+      <br />
+      <a href="https://github.com/dakshgupta-26/FIT-TRACK">
+        <img src="https://img.shields.io/badge/📂_Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=38bdf8" alt="FitTrack Source Code" />
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://fit-track-neon-xi.vercel.app/">
+        <img src="https://img.shields.io/badge/🌐_Live_Demo-38bdf8?style=for-the-badge&logo=vercel&logoColor=090d16" alt="FitTrack Live Demo" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://fit-track-neon-xi.vercel.app/">
+        <img src="./assets/sprintforge-card.svg" width="100%" alt="SprintForge" />
+      </a>
+      <br />
+      <br />
+      <a href="https://github.com/dakshgupta-26/SprintForge">
+        <img src="https://img.shields.io/badge/📂_Source_Code-1e293b?style=for-the-badge&logo=github&logoColor=c084fc" alt="SprintForge Source Code" />
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://fit-track-neon-xi.vercel.app/">
+        <img src="https://img.shields.io/badge/🌐_Live_Demo-c084fc?style=for-the-badge&logo=vercel&logoColor=090d16" alt="SprintForge Live Demo" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-<br />
 
-<p align="center">
-  🏋️ <strong>FitTrack AI:</strong> <a href="https://github.com/dakshgupta-26/FIT-TRACK">📂 Source Code</a> • <a href="https://fit-track-neon-xi.vercel.app/">🌐 Live Demo</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  🏃 <strong>SprintForge:</strong> <a href="https://github.com/dakshgupta-26/SprintForge">📂 Source Code</a> • <a href="https://fit-track-neon-xi.vercel.app/">🌐 Live Demo</a>
-</p>
 
 ---
 

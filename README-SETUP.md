@@ -142,7 +142,8 @@ Whenever you want to update your profile (e.g. adding new projects, updating ach
 * `assets/github-stats-card.svg`: Custom, high-availability animated SVG card displaying 120+ total contributions and key developer metrics.
 * `assets/top-languages-card.svg`: Animated multi-color language breakdown card with clean progress visualization.
 * `assets/leetcode-card.svg`: Custom animated SVG card showcasing Knight rating (1,887), Top 5% ranking (#42,693), and Easy (218) / Medium (433) / Hard (130) problem breakdown.
-* `assets/projects-card.svg`: Animated glassmorphic Featured Projects showcase SVG with glowing neon borders, clickable titles & action buttons (`Source Code` & `Live Demo`), and tech stack pills.
+* `assets/fittrack-card.svg`: Animated glassmorphic card for FitTrack AI with cyan pulsing border, tech pills, and feature highlights.
+* `assets/sprintforge-card.svg`: Animated glassmorphic card for SprintForge with purple pulsing border, tech pills, and feature highlights.
 * `assets/achievements-card.svg`: Animated glassmorphic trophy card showcasing Knight badge (1900+ rating), Global Rank 385 (Top 1.4%), and 800+ solved problems.
 * `assets/animated-divider.svg`: Lightweight glowing horizontal divider line with sliding accent light bead.
 
