@@ -119,7 +119,7 @@
     <tr>
       <td>
         <a href="https://github.com/dakshgupta-26">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dakshgupta-26&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Daksh's GitHub Stats" width="400" />
+          <img src="./assets/github-stats-card.svg" alt="Daksh's GitHub Stats" width="400" />
         </a>
       </td>
       <td>
@@ -131,7 +131,7 @@
     <tr>
       <td colspan="2" align="center">
         <a href="https://github.com/dakshgupta-26">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dakshgupta-26&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117&langs_count=8" alt="Top Languages" width="500" />
+          <img src="./assets/top-languages-card.svg" alt="Top Languages" width="500" />
         </a>
       </td>
     </tr>
@@ -158,7 +158,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏋️ <a href="https://github.com/dakshgupta-26/FIT-TRACK">FitTrack AI</a></h3>
+      <h3>🏋️ <a href="https://fit-track-neon-xi.vercel.app/">FitTrack AI</a></h3>
       <p>AI-powered wellness platform designed to provide personalized health insights, telemetry tracking, and automated workout recommendations.</p>
       <p><strong>Tech Stack:</strong> React • Node.js • MongoDB • Tailwind CSS • AI</p>
       <ul>
@@ -173,7 +173,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏃 <a href="https://github.com/dakshgupta-26/SprintForge">SprintForge</a></h3>
+      <h3>🏃 <a href="https://fit-track-neon-xi.vercel.app/">SprintForge</a></h3>
       <p>Agile project management and sprint acceleration platform built to streamline team workflows, task tracking, and developer velocity.</p>
       <p><strong>Tech Stack:</strong> TypeScript • React • Node.js • Express • PostgreSQL</p>
       <ul>
@@ -196,20 +196,9 @@
 
 <div align="center">
 
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <a href="https://leetcode.com/u/Daksh_26/">
-          <img src="https://leetcard.jacoblin.cool/Daksh_26?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="400" />
-        </a>
-      </td>
-      <td align="center" width="50%">
-        <a href="https://leetcode.com/u/Daksh_26/">
-          <img src="https://leetcode-stats-six.vercel.app/?username=Daksh_26&theme=dark" alt="LeetCode Progress" width="400" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://leetcode.com/u/Daksh_26/">
+    <img src="./assets/leetcode-dashboard.png" width="100%" alt="Daksh Gupta LeetCode Profile Dashboard (Knight 1887)" style="border-radius: 10px;" />
+  </a>
 
   <p align="center">
     <strong>Focus Topics:</strong> Array • String • Hash Table • Dynamic Programming • Trees • Graphs • Two Pointers • Binary Search
@@ -221,10 +210,13 @@
 
 ## 🏆 Achievements
 
-* 🏅 **Hackathon Finalist:** Recognized for building innovative full-stack solutions under 36-hour constraints.
-* 🧩 **Algorithmic Milestones:** Solved 300+ problems across LeetCode & Codeforces focusing on DSA core concepts.
-* 🎓 **Academic Performance:** Maintaining strong academic standing in B.Tech Computer Engineering at VIIT Pune.
-* 🌟 **Open Source Contributions:** Contributed patches and improvements to open-source developer repositories.
+<img src="./assets/achievements-card.svg" width="100%" alt="Daksh Gupta Engineering Achievements" />
+
+<br />
+
+* ⚔️ **LeetCode Knight (1900+ Rating):** Demonstrated top-tier problem-solving skills and proficiency in Data Structures & Algorithms.
+* 🎯 **Global Rank 385 (Top 1.4%):** Secured Rank 385 among 27,000+ worldwide participants in LeetCode Biweekly Contest 171 & Global Rank 822 in Biweekly Contest 175.
+* 🧩 **800+ Algorithmic Problems Solved:** Solved 800+ Data Structures & Algorithms problems across LeetCode and competitive programming platforms.
 
 ---
 

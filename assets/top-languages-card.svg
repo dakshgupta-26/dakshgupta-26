@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes cardPulse {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.8; }
+    }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .card-border { animation: cardPulse 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Card Container -->
+  <rect x="2" y="2" width="496" height="126" rx="10" fill="url(#bg-grad)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+
+  <text x="20" y="28" fill="#818cf8" class="code-font" font-size="13" font-weight="700">⚙️ Most Used Languages</text>
+  <line x1="20" y1="38" x2="480" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Multi-color Language Bar -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="0" width="175" height="10" rx="3" fill="#3178c6"/> <!-- TypeScript -->
+    <rect x="178" y="0" width="130" height="10" rx="3" fill="#f7df1e"/> <!-- JavaScript -->
+    <rect x="311" y="0" width="75" height="10" rx="3" fill="#f34b7d"/> <!-- C++ -->
+    <rect x="389" y="0" width="45" height="10" rx="3" fill="#e34c26"/> <!-- HTML/CSS -->
+    <rect x="437" y="0" width="23" height="10" rx="3" fill="#3572A5"/> <!-- Python -->
+  </g>
+
+  <!-- Language Labels Grid -->
+  <g transform="translate(20, 78)">
+    <!-- TS -->
+    <circle cx="6" cy="6" r="4" fill="#3178c6"/>
+    <text x="16" y="9" fill="#e2e8f0" class="code-font" font-size="11">TypeScript 38%</text>
+
+    <!-- JS -->
+    <circle cx="130" cy="6" r="4" fill="#f7df1e"/>
+    <text x="140" y="9" fill="#e2e8f0" class="code-font" font-size="11">JavaScript 28%</text>
+
+    <!-- C++ -->
+    <circle cx="250" cy="6" r="4" fill="#f34b7d"/>
+    <text x="260" y="9" fill="#e2e8f0" class="code-font" font-size="11">C++ 16%</text>
+
+    <!-- HTML/CSS -->
+    <circle cx="330" cy="6" r="4" fill="#e34c26"/>
+    <text x="340" y="9" fill="#e2e8f0" class="code-font" font-size="11">HTML/CSS 12%</text>
+
+    <!-- Python -->
+    <circle cx="435" cy="6" r="4" fill="#3572A5"/>
+    <text x="445" y="9" fill="#e2e8f0" class="code-font" font-size="11">Python 6%</text>
+  </g>
+</svg>

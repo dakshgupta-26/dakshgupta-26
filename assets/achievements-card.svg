@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cardPulse {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.8; }
+    }
+    @keyframes textGlow {
+      0%, 100% { opacity: 0.95; }
+      50% { opacity: 1; }
+    }
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .card-border { animation: cardPulse 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="246" rx="14" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Window Header Bar -->
+  <path d="M 2 14 A 12 12 0 0 1 14 2 L 836 2 A 12 12 0 0 1 848 14 L 848 36 L 2 36 Z" fill="#0f172a" fill-opacity="0.8"/>
+  <line x1="2" y1="36" x2="848" y2="36" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Window Buttons & Title -->
+  <circle cx="20" cy="19" r="4.5" fill="#ef4444"/>
+  <circle cx="36" cy="19" r="4.5" fill="#f59e0b"/>
+  <circle cx="52" cy="19" r="4.5" fill="#10b981"/>
+
+  <text x="72" y="23" fill="#94a3b8" class="code-font" font-size="11" font-weight="600">dakshgupta.achievements // competitive-programming</text>
+
+  <!-- Card 1: LeetCode Knight Rating (Left) -->
+  <g transform="translate(20, 50)">
+    <rect width="260" height="180" rx="10" fill="url(#card-grad)" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1.2" class="card-border"/>
+    
+    <!-- Header Tag -->
+    <rect x="15" y="15" width="135" height="22" rx="5" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="25" y="30" fill="#fbbf24" class="code-font" font-size="10" font-weight="700">⚔️ LEETCODE KNIGHT</text>
+
+    <!-- Main Value -->
+    <text x="15" y="75" fill="#fbbf24" class="code-font" font-size="28" font-weight="800" filter="url(#soft-glow)">1900+ Rating</text>
+
+    <line x1="15" y1="90" x2="245" y2="90" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Description -->
+    <text x="15" y="112" fill="#cbd5e1" class="main-font" font-size="11.5">
+      <tspan x="15" dy="0">Achieved Knight status on</tspan>
+      <tspan x="15" dy="17">LeetCode with 1900+ rating,</tspan>
+      <tspan x="15" dy="17">demonstrating advanced DSA</tspan>
+      <tspan x="15" dy="17">and problem-solving skills.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 2: Contest Ranks (Center) -->
+  <g transform="translate(293, 50)">
+    <rect width="264" height="180" rx="10" fill="url(#card-grad)" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.2" class="card-border"/>
+    
+    <!-- Header Tag -->
+    <rect x="15" y="15" width="145" height="22" rx="5" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="25" y="30" fill="#38bdf8" class="code-font" font-size="10" font-weight="700">🎯 GLOBAL TOP 1.4%</text>
+
+    <!-- Main Value -->
+    <text x="15" y="75" fill="#38bdf8" class="code-font" font-size="28" font-weight="800" filter="url(#soft-glow)">Rank 385</text>
+
+    <line x1="15" y1="90" x2="249" y2="90" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Description -->
+    <text x="15" y="112" fill="#cbd5e1" class="main-font" font-size="11.5">
+      <tspan x="15" dy="0">Global Rank 385 (Top 1.4%)</tspan>
+      <tspan x="15" dy="17">among 27,000+ coders in</tspan>
+      <tspan x="15" dy="17">Biweekly 171 &amp; Rank 822 in</tspan>
+      <tspan x="15" dy="17">Biweekly Contest 175.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 3: 800+ Solved (Right) -->
+  <g transform="translate(570, 50)">
+    <rect width="260" height="180" rx="10" fill="url(#card-grad)" stroke="#10b981" stroke-opacity="0.5" stroke-width="1.2" class="card-border"/>
+    
+    <!-- Header Tag -->
+    <rect x="15" y="15" width="145" height="22" rx="5" fill="#0f172a" stroke="#10b981" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="25" y="30" fill="#34d399" class="code-font" font-size="10" font-weight="700">🧩 ALGORITHMIC MASTERY</text>
+
+    <!-- Main Value -->
+    <text x="15" y="75" fill="#34d399" class="code-font" font-size="28" font-weight="800" filter="url(#soft-glow)">800+ Solved</text>
+
+    <line x1="15" y1="90" x2="245" y2="90" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Description -->
+    <text x="15" y="112" fill="#cbd5e1" class="main-font" font-size="11.5">
+      <tspan x="15" dy="0">Solved 800+ Data Structures</tspan>
+      <tspan x="15" dy="17">&amp; Algorithms problems across</tspan>
+      <tspan x="15" dy="17">LeetCode and competitive</tspan>
+      <tspan x="15" dy="17">programming platforms.</tspan>
+    </text>
+  </g>
+</svg>
