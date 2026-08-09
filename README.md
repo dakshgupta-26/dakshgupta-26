@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Custom Animated Header Banner -->
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/dakshgupta-26">
     <img src="./assets/hero-banner.svg" alt="Daksh Gupta Banner" width="100%" />
   </a>
 
@@ -9,7 +9,7 @@
   <br />
 
   <!-- Animated Typing Title -->
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/dakshgupta-26">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&height=50&lines=Software+Engineer;Full-Stack+Developer;Backend+Enthusiast;DSA+Problem+Solver" alt="Typing SVG" />
   </a>
 
@@ -19,19 +19,19 @@
 
   <!-- Social Badges -->
   <p align="center">
-    <a href="https://github.com/YOUR_GITHUB_USERNAME">
+    <a href="https://github.com/dakshgupta-26">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+    <a href="https://www.linkedin.com/in/dakshgupta26/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
+    <a href="https://leetcode.com/u/Daksh_26/">
       <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
     </a>
     <a href="https://YOUR-PORTFOLIO-URL.com">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfolio" />
     </a>
-    <a href="mailto:your.email@example.com">
+    <a href="mailto:dakshgupta2610@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
@@ -114,7 +114,7 @@ cloud-native + distributed-systems
 <br />
 
 <!-- Unified Skill Icons Matrix -->
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/dakshgupta-26">
   <img src="https://skillicons.dev/icons?i=java,js,ts,python,postgres,mongodb,mysql,redis,react,html,css,tailwind,vite,nodejs,express,graphql,aws,docker,kubernetes,linux,githubactions,git,github,vscode,postman&perline=13" alt="Skill Icons Matrix" />
 </a>
 
@@ -128,20 +128,20 @@ cloud-native + distributed-systems
   <table border="0">
     <tr>
       <td>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME">
-          <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Daksh's GitHub Stats" width="400" />
+        <a href="https://github.com/dakshgupta-26">
+          <img src="https://github-readme-stats.vercel.app/api?username=dakshgupta-26&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Daksh's GitHub Stats" width="400" />
         </a>
       </td>
       <td>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="Daksh's GitHub Streak" width="400" />
+        <a href="https://github.com/dakshgupta-26">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=dakshgupta-26&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="Daksh's GitHub Streak" width="400" />
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <a href="https://github.com/YOUR_GITHUB_USERNAME">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117&langs_count=8" alt="Top Languages" width="500" />
+        <a href="https://github.com/dakshgupta-26">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakshgupta-26&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117&langs_count=8" alt="Top Languages" width="500" />
         </a>
       </td>
     </tr>
@@ -153,8 +153,8 @@ cloud-native + distributed-systems
 ## 📈 Contribution Activity
 
 <div align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&hide_border=true&area=true&color=38bdf8&line=38bdf8&point=818cf8" alt="Daksh's Contribution Graph" width="100%" />
+  <a href="https://github.com/dakshgupta-26">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dakshgupta-26&theme=react-dark&hide_border=true&area=true&color=38bdf8&line=38bdf8&point=818cf8" alt="Daksh's Contribution Graph" width="100%" />
   </a>
   <p align="center">
     <em>"Consistency compounds."</em>
@@ -168,7 +168,7 @@ cloud-native + distributed-systems
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏋️ <a href="https://github.com/YOUR_GITHUB_USERNAME/FitTrack">FitTrack AI</a></h3>
+      <h3>🏋️ <a href="https://github.com/dakshgupta-26/FitTrack">FitTrack AI</a></h3>
       <p>AI-powered wellness platform designed to provide personalized insights and intelligent health tracking.</p>
       <p><strong>Tech Stack:</strong> React • Node.js • MongoDB • Python • AI</p>
       <ul>
@@ -178,12 +178,12 @@ cloud-native + distributed-systems
         <li>Integrations with wearable AI devices</li>
       </ul>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/FitTrack"><strong>📂 Source Code</strong></a> | 
+        <a href="https://github.com/dakshgupta-26/FitTrack"><strong>📂 Source Code</strong></a> | 
         <a href="https://fittrack-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/YOUR_GITHUB_USERNAME/FinPlan">FinPlan</a></h3>
+      <h3>💰 <a href="https://github.com/dakshgupta-26/FinPlan">FinPlan</a></h3>
       <p>A modern financial planning and analytics platform with intelligent budget tracking and interactive reporting.</p>
       <p><strong>Tech Stack:</strong> React • Node.js • Express • PostgreSQL</p>
       <ul>
@@ -193,14 +193,14 @@ cloud-native + distributed-systems
         <li>Secure JWT authentication &amp; role-based access</li>
       </ul>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/FinPlan"><strong>📂 Source Code</strong></a> | 
+        <a href="https://github.com/dakshgupta-26/FinPlan"><strong>📂 Source Code</strong></a> | 
         <a href="https://finplan-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/YOUR_GITHUB_USERNAME/DevConnect">DevConnect</a></h3>
+      <h3>⚡ <a href="https://github.com/dakshgupta-26/DevConnect">DevConnect</a></h3>
       <p>Real-time collaborative developer platform for code snippet sharing, technical discussion, and team workflow management.</p>
       <p><strong>Tech Stack:</strong> TypeScript • Express • Redis • Docker • WebSockets</p>
       <ul>
@@ -210,12 +210,12 @@ cloud-native + distributed-systems
         <li>Containerized microservices setup</li>
       </ul>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/DevConnect"><strong>📂 Source Code</strong></a> | 
+        <a href="https://github.com/dakshgupta-26/DevConnect"><strong>📂 Source Code</strong></a> | 
         <a href="https://devconnect-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧩 <a href="https://github.com/YOUR_GITHUB_USERNAME/AlgoViz">AlgoViz</a></h3>
+      <h3>🧩 <a href="https://github.com/dakshgupta-26/AlgoViz">AlgoViz</a></h3>
       <p>Interactive algorithm and data structure visualizer built to assist computer science students in mastering complex concepts.</p>
       <p><strong>Tech Stack:</strong> React • TypeScript • Tailwind CSS • Vite</p>
       <ul>
@@ -225,7 +225,7 @@ cloud-native + distributed-systems
         <li>Clean, responsive modern UI</li>
       </ul>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/AlgoViz"><strong>📂 Source Code</strong></a> | 
+        <a href="https://github.com/dakshgupta-26/AlgoViz"><strong>📂 Source Code</strong></a> | 
         <a href="https://algoviz-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
@@ -241,13 +241,13 @@ cloud-native + distributed-systems
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-          <img src="https://github-readme-leetcode.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=dark" alt="LeetCode Stats" width="380" />
+        <a href="https://leetcode.com/u/Daksh_26/">
+          <img src="https://github-readme-leetcode.vercel.app/api?username=Daksh_26&theme=dark" alt="LeetCode Stats" width="380" />
         </a>
       </td>
       <td align="center" width="50%">
-        <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-          <img src="https://leetcode-stats-api.herokuapp.com/YOUR_LEETCODE_USERNAME" alt="LeetCode Progress" width="380" />
+        <a href="https://leetcode.com/u/Daksh_26/">
+          <img src="https://leetcode-stats-api.herokuapp.com/Daksh_26" alt="LeetCode Progress" width="380" />
         </a>
       </td>
     </tr>
@@ -303,13 +303,13 @@ If you are interested in discussing **software engineering**, **backend architec
 <div align="center">
   <br />
   <p align="center">
-    <a href="https://github.com/YOUR_GITHUB_USERNAME">
+    <a href="https://github.com/dakshgupta-26">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+    <a href="https://www.linkedin.com/in/dakshgupta26/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="mailto:your.email@example.com">
+    <a href="mailto:dakshgupta2610@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://YOUR-PORTFOLIO-URL.com">
