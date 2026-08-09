@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <!-- Cyan Accent Gradient -->
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Glowing Line Gradient -->
+    <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+      <circle cx="30" cy="30" r="1" fill="#38bdf8" fill-opacity="0.2"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-240px); }
+      100% { transform: translateY(240px); }
+    }
+    @keyframes float-particle {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-8px) scale(1.2); opacity: 0.8; }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -40; }
+    }
+    .pulse { animation: pulse-glow 4s ease-in-out infinite; }
+    .particle1 { animation: float-particle 5s ease-in-out infinite; }
+    .particle2 { animation: float-particle 7s ease-in-out infinite 1s; }
+    .particle3 { animation: float-particle 6s ease-in-out infinite 2s; }
+    .animated-line { stroke-dasharray: 8 4; animation: dash 3s linear infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .code-text { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="900" height="240" rx="14" fill="url(#bg-gradient)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Grid Layer -->
+  <rect width="900" height="240" rx="14" fill="url(#grid)"/>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="150" cy="60" r="100" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)" class="pulse"/>
+  <circle cx="750" cy="180" r="120" fill="#6366f1" fill-opacity="0.06" filter="url(#glow)" class="pulse"/>
+
+  <!-- Top Terminal Header Bar -->
+  <rect x="0" y="0" width="900" height="36" rx="14" fill="#0f172a" fill-opacity="0.6"/>
+  <rect x="0" y="24" width="900" height="12" fill="#0f172a" fill-opacity="0.6"/>
+  <line x1="0" y1="36" x2="900" y2="36" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Window Dots -->
+  <circle cx="24" cy="18" r="5" fill="#ef4444" fill-opacity="0.8"/>
+  <circle cx="40" cy="18" r="5" fill="#f59e0b" fill-opacity="0.8"/>
+  <circle cx="56" cy="18" r="5" fill="#10b981" fill-opacity="0.8"/>
+
+  <!-- Terminal Path Text -->
+  <text x="80" y="22" fill="#64748b" class="code-text" font-size="11" font-weight="500">dakshgupta ~ github-profile // main</text>
+
+  <!-- Live Status Badge -->
+  <g transform="translate(730, 10)">
+    <rect width="145" height="18" rx="9" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+    <circle cx="14" cy="9" r="3.5" fill="#10b981" filter="url(#soft-glow)"/>
+    <text x="24" y="13" fill="#94a3b8" class="code-text" font-size="9" font-weight="600">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Decorative Circuit / Node Lines -->
+  <path d="M 600 60 L 680 60 L 720 100 L 820 100" fill="none" stroke="url(#line-gradient)" stroke-width="1.5" class="animated-line"/>
+  <path d="M 650 170 L 730 170 L 760 140 L 840 140" fill="none" stroke="url(#line-gradient)" stroke-width="1.5" class="animated-line"/>
+
+  <circle cx="680" cy="60" r="3" fill="#38bdf8" filter="url(#soft-glow)" class="particle1"/>
+  <circle cx="720" cy="100" r="3" fill="#818cf8" filter="url(#soft-glow)" class="particle2"/>
+  <circle cx="760" cy="140" r="3" fill="#c084fc" filter="url(#soft-glow)" class="particle3"/>
+
+  <!-- Code Bracket Graphics in Background -->
+  <text x="580" y="165" fill="#1e293b" class="code-text" font-size="90" font-weight="900" opacity="0.4">&lt;/&gt;</text>
+
+  <!-- Main Hero Title -->
+  <text x="50" y="110" fill="url(#accent-gradient)" class="title-text" font-size="38" letter-spacing="-0.5" filter="url(#soft-glow)">Daksh Gupta</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="50" y="142" fill="#e2e8f0" class="title-text" font-size="18" font-weight="600" letter-spacing="0.2">Software Engineer • Full-Stack Developer • Problem Solver</text>
+
+  <!-- Tech Focus Pills -->
+  <g transform="translate(50, 168)">
+    <!-- Pill 1: Full-Stack -->
+    <rect x="0" y="0" width="105" height="24" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="12" y="16" fill="#38bdf8" class="code-text" font-size="11" font-weight="600">⚡ Full-Stack</text>
+
+    <!-- Pill 2: Backend Architecture -->
+    <rect x="115" y="0" width="165" height="24" rx="6" fill="#1e293b" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="127" y="16" fill="#818cf8" class="code-text" font-size="11" font-weight="600">⚙️ Backend Systems</text>
+
+    <!-- Pill 3: DSA -->
+    <rect x="290" y="0" width="145" height="24" rx="6" fill="#1e293b" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="302" y="16" fill="#c084fc" class="code-text" font-size="11" font-weight="600">🧠 DSA &amp; Algo</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="237" width="900" height="3" fill="url(#accent-gradient)"/>
+</svg>

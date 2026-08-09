@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 20" width="100%" height="20">
+  <defs>
+    <linearGradient id="divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow-line" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes move-glow {
+      0% { transform: translateX(-300px); }
+      100% { transform: translateX(900px); }
+    }
+    .glow-dot {
+      animation: move-glow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+
+  <!-- Base Line -->
+  <line x1="0" y1="10" x2="900" y2="10" stroke="url(#divider-grad)" stroke-width="1.5"/>
+
+  <!-- Moving Pulse Glow Bead -->
+  <g class="glow-dot">
+    <circle cx="0" cy="10" r="4" fill="#38bdf8" filter="url(#glow-line)"/>
+    <circle cx="0" cy="10" r="2" fill="#ffffff"/>
+  </g>
+</svg>
