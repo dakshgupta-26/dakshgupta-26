@@ -136,6 +136,7 @@ Whenever you want to update your profile (e.g. adding new projects, updating ach
 ## 🎨 Visual Assets Summary
 
 * `assets/hero-banner.svg`: Sleek, dark developer header card with simulated IDE top-bar, animated circuit nodes, gradient typography, and glowing system badges.
+* `assets/terminal-console.svg`: Animated zsh terminal window console displaying interactive `whoami`, `role`, `focus`, `currently-learning`, and `status` outputs with a blinking cursor and realistic window controls.
 * `assets/animated-divider.svg`: Lightweight glowing horizontal divider line with sliding accent light bead.
 
 ---

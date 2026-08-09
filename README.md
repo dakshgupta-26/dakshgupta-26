@@ -48,19 +48,11 @@ I am a **Computer Engineering student** at **Vishwakarma Institute of Informatio
 * 🛠️ **Engineering Mindset:** Strongly believe in clean code, modular architecture, robust system design, and continuous learning.
 * 🎯 **Career Goal:** Aspiring to contribute to high-impact engineering teams at leading technology companies (FAANG/MANGA).
 
-```text
-$ whoami
-daksh-gupta
+<br />
 
-$ role
-software-engineer
+<!-- Animated Interactive Terminal Console -->
+<img src="./assets/terminal-console.svg" width="100%" alt="Daksh Gupta Terminal Console" />
 
-$ focus
-full-stack / backend-systems / dsa
-
-$ currently-learning
-cloud-native + distributed-systems
-```
 
 ---
 
@@ -168,65 +160,33 @@ cloud-native + distributed-systems
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏋️ <a href="https://github.com/dakshgupta-26/FitTrack">FitTrack AI</a></h3>
-      <p>AI-powered wellness platform designed to provide personalized insights and intelligent health tracking.</p>
-      <p><strong>Tech Stack:</strong> React • Node.js • MongoDB • Python • AI</p>
+      <h3>🏋️ <a href="https://github.com/dakshgupta-26/FIT-TRACK">FitTrack AI</a></h3>
+      <p>AI-powered wellness platform designed to provide personalized health insights, telemetry tracking, and automated workout recommendations.</p>
+      <p><strong>Tech Stack:</strong> React • Node.js • MongoDB • Tailwind CSS • AI</p>
       <ul>
         <li>Personalized workout &amp; diet recommendations</li>
         <li>Interactive analytics &amp; progress visualization</li>
         <li>User telemetry &amp; bio-metric tracking</li>
-        <li>Integrations with wearable AI devices</li>
+        <li>Real-time community &amp; activity feed</li>
       </ul>
       <p>
-        <a href="https://github.com/dakshgupta-26/FitTrack"><strong>📂 Source Code</strong></a> | 
-        <a href="https://fittrack-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
+        <a href="https://github.com/dakshgupta-26/FIT-TRACK"><strong>📂 Source Code</strong></a> | 
+        <a href="https://fit-track-neon-xi.vercel.app/"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/dakshgupta-26/FinPlan">FinPlan</a></h3>
-      <p>A modern financial planning and analytics platform with intelligent budget tracking and interactive reporting.</p>
-      <p><strong>Tech Stack:</strong> React • Node.js • Express • PostgreSQL</p>
+      <h3>🏃 <a href="https://github.com/dakshgupta-26/SprintForge">SprintForge</a></h3>
+      <p>Agile project management and sprint acceleration platform built to streamline team workflows, task tracking, and developer velocity.</p>
+      <p><strong>Tech Stack:</strong> TypeScript • React • Node.js • Express • PostgreSQL</p>
       <ul>
-        <li>Comprehensive financial analytics &amp; forecasting</li>
-        <li>Automated budget categorization &amp; spending alerts</li>
-        <li>Interactive glassmorphic dashboards</li>
-        <li>Secure JWT authentication &amp; role-based access</li>
+        <li>Interactive Kanban &amp; Sprint planning boards</li>
+        <li>Agile velocity metrics &amp; burndown analytics</li>
+        <li>Task automation &amp; developer workflow integration</li>
+        <li>Role-based access control &amp; team workspaces</li>
       </ul>
       <p>
-        <a href="https://github.com/dakshgupta-26/FinPlan"><strong>📂 Source Code</strong></a> | 
-        <a href="https://finplan-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/dakshgupta-26/DevConnect">DevConnect</a></h3>
-      <p>Real-time collaborative developer platform for code snippet sharing, technical discussion, and team workflow management.</p>
-      <p><strong>Tech Stack:</strong> TypeScript • Express • Redis • Docker • WebSockets</p>
-      <ul>
-        <li>Real-time multi-user code execution sandbox</li>
-        <li>Low-latency messaging powered by WebSockets</li>
-        <li>Caching &amp; session management with Redis</li>
-        <li>Containerized microservices setup</li>
-      </ul>
-      <p>
-        <a href="https://github.com/dakshgupta-26/DevConnect"><strong>📂 Source Code</strong></a> | 
-        <a href="https://devconnect-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧩 <a href="https://github.com/dakshgupta-26/AlgoViz">AlgoViz</a></h3>
-      <p>Interactive algorithm and data structure visualizer built to assist computer science students in mastering complex concepts.</p>
-      <p><strong>Tech Stack:</strong> React • TypeScript • Tailwind CSS • Vite</p>
-      <ul>
-        <li>Step-by-step execution for Sorting &amp; Graph algorithms</li>
-        <li>Custom array/graph input generation</li>
-        <li>Speed control and state mutation highlights</li>
-        <li>Clean, responsive modern UI</li>
-      </ul>
-      <p>
-        <a href="https://github.com/dakshgupta-26/AlgoViz"><strong>📂 Source Code</strong></a> | 
-        <a href="https://algoviz-demo.vercel.app"><strong>🌐 Live Demo</strong></a>
+        <a href="https://github.com/dakshgupta-26/SprintForge"><strong>📂 Source Code</strong></a> | 
+        <a href="https://fit-track-neon-xi.vercel.app/"><strong>🌐 Live Demo</strong></a>
       </p>
     </td>
   </tr>

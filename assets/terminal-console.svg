@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="term-header" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161e2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    
+    @keyframes lineFade1 {
+      0% { opacity: 0; transform: translateY(3px); }
+      4%, 100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes lineFade2 {
+      0%, 8% { opacity: 0; transform: translateY(3px); }
+      14%, 100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes lineFade3 {
+      0%, 18% { opacity: 0; transform: translateY(3px); }
+      24%, 100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes lineFade4 {
+      0%, 28% { opacity: 0; transform: translateY(3px); }
+      34%, 100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes lineFade5 {
+      0%, 38% { opacity: 0; transform: translateY(3px); }
+      44%, 100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .cursor { animation: blink 1s infinite; fill: #38bdf8; }
+    .term-font { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, Monaco, 'Courier New', monospace; }
+    
+    .line-1 { animation: lineFade1 10s ease-out infinite; }
+    .line-2 { animation: lineFade2 10s ease-out infinite; }
+    .line-3 { animation: lineFade3 10s ease-out infinite; }
+    .line-4 { animation: lineFade4 10s ease-out infinite; }
+    .line-5 { animation: lineFade5 10s ease-out infinite; }
+  </style>
+
+  <!-- Outer Window Shadow / Border -->
+  <rect x="2" y="2" width="846" height="346" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Main Terminal Window Container -->
+  <rect x="2" y="2" width="846" height="346" rx="12" fill="url(#term-bg)"/>
+
+  <!-- Top Title Bar -->
+  <path d="M 2 14 A 12 12 0 0 1 14 2 L 836 2 A 12 12 0 0 1 848 14 L 848 38 L 2 38 Z" fill="url(#term-header)"/>
+  <line x1="2" y1="38" x2="848" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Terminal Control Buttons -->
+  <circle cx="24" cy="20" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+  <circle cx="42" cy="20" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+
+  <!-- Window Title -->
+  <text x="425" y="24" fill="#94a3b8" class="term-font" font-size="12" font-weight="600" text-anchor="middle">daksh@dev-box: ~ (zsh)</text>
+
+  <!-- Status Indicator Badge -->
+  <rect x="710" y="10" width="120" height="20" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <circle cx="724" cy="20" r="4" fill="#10b981" filter="url(#soft-glow)"/>
+  <text x="735" y="24" fill="#34d399" class="term-font" font-size="10" font-weight="600">LIVE SESSION</text>
+
+  <!-- Terminal Body Content -->
+  <g transform="translate(25, 45)">
+    <!-- Line 1: whoami -->
+    <g class="line-1">
+      <text x="0" y="25" class="term-font" font-size="13.5">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="700">~ </tspan>
+        <tspan fill="#f1f5f9" font-weight="600">whoami</tspan>
+      </text>
+      <text x="18" y="48" class="term-font" font-size="13" fill="#cbd5e1">
+        daksh-gupta <tspan fill="#64748b">(Computer Engineering Student @ VIIT Pune)</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2: role -->
+    <g class="line-2">
+      <text x="0" y="85" class="term-font" font-size="13.5">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="700">~ </tspan>
+        <tspan fill="#f1f5f9" font-weight="600">role</tspan>
+      </text>
+      <text x="18" y="108" class="term-font" font-size="13" fill="#818cf8" font-weight="500">
+        Software Engineer <tspan fill="#64748b">|</tspan> Full-Stack &amp; Backend Systems Developer
+      </text>
+    </g>
+
+    <!-- Line 3: focus -->
+    <g class="line-3">
+      <text x="0" y="145" class="term-font" font-size="13.5">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="700">~ </tspan>
+        <tspan fill="#f1f5f9" font-weight="600">focus</tspan>
+      </text>
+      <text x="18" y="168" class="term-font" font-size="13" fill="#fbbf24">
+        full-stack <tspan fill="#64748b">/</tspan> high-throughput backend-systems <tspan fill="#64748b">/</tspan> dsa
+      </text>
+    </g>
+
+    <!-- Line 4: currently-learning -->
+    <g class="line-4">
+      <text x="0" y="205" class="term-font" font-size="13.5">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="700">~ </tspan>
+        <tspan fill="#f1f5f9" font-weight="600">currently-learning</tspan>
+      </text>
+      <text x="18" y="228" class="term-font" font-size="13" fill="#c084fc">
+        cloud-native <tspan fill="#94a3b8">(AWS, Docker, Kubernetes)</tspan> + distributed-systems
+      </text>
+    </g>
+
+    <!-- Line 5: status -->
+    <g class="line-5">
+      <text x="0" y="265" class="term-font" font-size="13.5">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#38bdf8" font-weight="700">~ </tspan>
+        <tspan fill="#f1f5f9" font-weight="600">status</tspan>
+      </text>
+      <text x="18" y="288" class="term-font" font-size="13" fill="#38bdf8" font-weight="600">
+        Ready to build &amp; ship high-impact software systems 🚀
+      </text>
+      <!-- Blinking Cursor -->
+      <rect x="422" y="275" width="8" height="15" class="cursor" rx="1"/>
+    </g>
+  </g>
+</svg>
