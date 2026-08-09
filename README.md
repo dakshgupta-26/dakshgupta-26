@@ -42,12 +42,10 @@
 
 ## 👨‍💻 About Me
 
-I am a **Computer Engineering student** at **Vishwakarma Institute of Information Technology (VIIT), Pune** with a deep passion for software engineering, full-stack development, and backend systems architecture. 
+<!-- Modern Glassmorphic Bento Grid About Card -->
+<img src="./assets/about-card.svg" width="100%" alt="About Daksh Gupta" />
 
-* 💡 **Core Focus:** Building high-throughput backend services, intuitive frontend applications, and solving complex algorithmic challenges.
-* 🛠️ **Engineering Mindset:** Strongly believe in clean code, modular architecture, robust system design, and continuous learning.
-* 🎯 **Career Goal:** Aspiring to contribute to high-impact engineering teams at leading technology companies (FAANG/MANGA).
-
+<br />
 <br />
 
 <!-- Animated Interactive Terminal Console -->
@@ -121,19 +119,19 @@ I am a **Computer Engineering student** at **Vishwakarma Institute of Informatio
     <tr>
       <td>
         <a href="https://github.com/dakshgupta-26">
-          <img src="https://github-readme-stats.vercel.app/api?username=dakshgupta-26&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Daksh's GitHub Stats" width="400" />
+          <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dakshgupta-26&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Daksh's GitHub Stats" width="400" />
         </a>
       </td>
       <td>
         <a href="https://github.com/dakshgupta-26">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=dakshgupta-26&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="Daksh's GitHub Streak" width="400" />
+          <img src="https://streak-stats.demolab.com/?user=dakshgupta-26&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="Daksh's GitHub Streak" width="400" />
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <a href="https://github.com/dakshgupta-26">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakshgupta-26&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117&langs_count=8" alt="Top Languages" width="500" />
+          <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dakshgupta-26&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117&langs_count=8" alt="Top Languages" width="500" />
         </a>
       </td>
     </tr>
@@ -202,12 +200,12 @@ I am a **Computer Engineering student** at **Vishwakarma Institute of Informatio
     <tr>
       <td align="center" width="50%">
         <a href="https://leetcode.com/u/Daksh_26/">
-          <img src="https://github-readme-leetcode.vercel.app/api?username=Daksh_26&theme=dark" alt="LeetCode Stats" width="380" />
+          <img src="https://leetcard.jacoblin.cool/Daksh_26?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="400" />
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://leetcode.com/u/Daksh_26/">
-          <img src="https://leetcode-stats-api.herokuapp.com/Daksh_26" alt="LeetCode Progress" width="380" />
+          <img src="https://leetcode-stats-six.vercel.app/?username=Daksh_26&theme=dark" alt="LeetCode Progress" width="400" />
         </a>
       </td>
     </tr>

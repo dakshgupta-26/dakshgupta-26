@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cardPulse {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.8; }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0); opacity: 0.4; }
+      50% { transform: translateY(-4px); opacity: 0.9; }
+    }
+    
+    .main-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Fira Code', Helvetica, Arial, sans-serif; }
+    .code-font { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .card-border { animation: cardPulse 4s ease-in-out infinite; }
+    .particle { animation: floatParticle 5s ease-in-out infinite; }
+  </style>
+
+  <!-- Main Container Card -->
+  <rect x="2" y="2" width="846" height="276" rx="14" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Top Decorative Header Bar -->
+  <path d="M 2 14 A 12 12 0 0 1 14 2 L 836 2 A 12 12 0 0 1 848 14 L 848 36 L 2 36 Z" fill="#0f172a" fill-opacity="0.8"/>
+  <line x1="2" y1="36" x2="848" y2="36" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Header Accent Dots & Title -->
+  <circle cx="20" cy="19" r="4.5" fill="#ef4444"/>
+  <circle cx="36" cy="19" r="4.5" fill="#f59e0b"/>
+  <circle cx="52" cy="19" r="4.5" fill="#10b981"/>
+
+  <text x="72" y="23" fill="#94a3b8" class="code-font" font-size="11" font-weight="600">dakshgupta.bio // overview</text>
+
+  <!-- Live Status Badge -->
+  <g transform="translate(685, 9)">
+    <rect width="145" height="18" rx="9" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="14" cy="9" r="3.5" fill="#38bdf8" filter="url(#soft-glow)" class="particle"/>
+    <text x="25" y="13" fill="#38bdf8" class="code-font" font-size="9" font-weight="700">ENGINEERING PROFILE</text>
+  </g>
+
+  <!-- Bento Card 1: Main Bio (Left Side) -->
+  <g transform="translate(20, 50)">
+    <rect width="390" height="205" rx="10" fill="url(#card-grad-1)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+    
+    <!-- Icon & Heading -->
+    <text x="20" y="32" class="main-font" font-size="18">🎓</text>
+    <text x="50" y="30" fill="#f8fafc" class="main-font" font-size="15" font-weight="700">Computer Engineering Student</text>
+    <text x="50" y="47" fill="#38bdf8" class="code-font" font-size="11" font-weight="600">VIIT Pune (Expected Grad 2027)</text>
+
+    <line x1="20" y1="62" x2="370" y2="62" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- Paragraph Text -->
+    <text x="20" y="84" fill="#cbd5e1" class="main-font" font-size="12.5" font-weight="400">
+      <tspan x="20" dy="0">Passionate software engineer focused on building high-</tspan>
+      <tspan x="20" dy="19">throughput backend architectures, intuitive web apps,</tspan>
+      <tspan x="20" dy="19">and solving complex algorithmic problems.</tspan>
+    </text>
+
+    <!-- Micro Skill Badges -->
+    <g transform="translate(20, 148)">
+      <rect x="0" y="0" width="105" height="22" rx="5" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="10" y="15" fill="#38bdf8" class="code-font" font-size="10" font-weight="600">⚡ Full-Stack</text>
+
+      <rect x="113" y="0" width="122" height="22" rx="5" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="123" y="15" fill="#818cf8" class="code-font" font-size="10" font-weight="600">⚙️ Backend Dev</text>
+
+      <rect x="243" y="0" width="122" height="22" rx="5" fill="#0f172a" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="253" y="15" fill="#c084fc" class="code-font" font-size="10" font-weight="600">☁️ Cloud &amp; DevOps</text>
+    </g>
+  </g>
+
+  <!-- Bento Card 2: Core Focus (Top Right) -->
+  <g transform="translate(425, 50)">
+    <rect width="405" height="62" rx="10" fill="url(#card-grad-1)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+    
+    <text x="15" y="28" class="main-font" font-size="16">💡</text>
+    <text x="42" y="27" fill="#818cf8" class="main-font" font-size="13" font-weight="700">Core Focus</text>
+    <text x="42" y="45" fill="#e2e8f0" class="main-font" font-size="11.5" font-weight="400">High-throughput backends, clean APIs &amp; distributed systems</text>
+  </g>
+
+  <!-- Bento Card 3: Engineering Mindset (Middle Right) -->
+  <g transform="translate(425, 122)">
+    <rect width="405" height="62" rx="10" fill="url(#card-grad-1)" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+    
+    <text x="15" y="28" class="main-font" font-size="16">🛠️</text>
+    <text x="42" y="27" fill="#c084fc" class="main-font" font-size="13" font-weight="700">Engineering Mindset</text>
+    <text x="42" y="45" fill="#e2e8f0" class="main-font" font-size="11.5" font-weight="400">Clean modular code, robust system design &amp; performance</text>
+  </g>
+
+  <!-- Bento Card 4: Career Goal (Bottom Right) -->
+  <g transform="translate(425, 194)">
+    <rect width="405" height="61" rx="10" fill="url(#card-grad-1)" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.2" class="card-border"/>
+    
+    <text x="15" y="28" class="main-font" font-size="16">🎯</text>
+    <text x="42" y="27" fill="#fbbf24" class="main-font" font-size="13" font-weight="700">Career Goal</text>
+    <text x="42" y="45" fill="#e2e8f0" class="main-font" font-size="11.5" font-weight="400">Targeting SDE roles in high-impact product engineering teams</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="2" y="274" width="846" height="4" rx="2" fill="url(#accent-cyan)"/>
+</svg>
