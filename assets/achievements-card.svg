@@ -82,7 +82,7 @@
     <!-- Description -->
     <text x="15" y="112" fill="#cbd5e1" class="main-font" font-size="11.5">
       <tspan x="15" dy="0">Achieved Knight status on</tspan>
-      <tspan x="15" dy="17">LeetCode with 1900+ rating,</tspan>
+      <tspan x="15" dy="17">LeetCode with 1850+ rating,</tspan>
       <tspan x="15" dy="17">demonstrating advanced DSA</tspan>
       <tspan x="15" dy="17">and problem-solving skills.</tspan>
     </text>
@@ -125,7 +125,7 @@
 
     <!-- Description -->
     <text x="15" y="112" fill="#cbd5e1" class="main-font" font-size="11.5">
-      <tspan x="15" dy="0">Solved 800+ Data Structures</tspan>
+      <tspan x="15" dy="0">Solved 700+ Data Structures</tspan>
       <tspan x="15" dy="17">&amp; Algorithms problems across</tspan>
       <tspan x="15" dy="17">LeetCode and competitive</tspan>
       <tspan x="15" dy="17">programming platforms.</tspan>
