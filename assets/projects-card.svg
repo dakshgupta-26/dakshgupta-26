@@ -168,7 +168,7 @@
       </a>
 
       <!-- Live Demo Button -->
-      <a href="https://fit-track-neon-xi.vercel.app/" target="_blank" class="btn-hover">
+      <a href="https://sprint-forge-livid.vercel.app/" target="_blank" class="btn-hover">
         <rect x="132" y="0" width="115" height="30" rx="6" fill="url(#purple-accent)"/>
         <text x="148" y="19" fill="#090d16" class="code-font" font-size="10.5" font-weight="800">🌐 Live Demo</text>
       </a>
