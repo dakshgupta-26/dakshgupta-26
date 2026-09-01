@@ -223,7 +223,7 @@
 
 * ⚔️ **LeetCode Knight (1850+ Rating):** Demonstrated top-tier problem-solving skills and proficiency in Data Structures & Algorithms.
 * 🎯 **Global Rank 385 (Top 1.4%):** Secured Rank 385 among 27,000+ worldwide participants in LeetCode Biweekly Contest 171 & Global Rank 822 in Biweekly Contest 175.
-* 🧩 **700+ Algorithmic Problems Solved:** Solved 800+ Data Structures & Algorithms problems across LeetCode and competitive programming platforms.
+* 🧩 **800+ Algorithmic Problems Solved:** Solved 800+ Data Structures & Algorithms problems across LeetCode and competitive programming platforms.
 
 ---
 
