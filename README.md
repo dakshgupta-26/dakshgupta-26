@@ -28,7 +28,7 @@
     <a href="https://leetcode.com/u/Daksh_26/">
       <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
     </a>
-    <a href="https://YOUR-PORTFOLIO-URL.com">
+    <a href="https://portfolio-dakshgupta.vercel.app/">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfolio" />
     </a>
     <a href="mailto:dakshgupta2610@gmail.com">
@@ -269,7 +269,7 @@ If you are interested in discussing **software engineering**, **backend architec
     <a href="mailto:dakshgupta2610@gmail.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://YOUR-PORTFOLIO-URL.com">
+    <a href="https://portfolio-dakshgupta.vercel.app/">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfolio" />
     </a>
   </p>
