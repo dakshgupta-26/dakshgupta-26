@@ -44,7 +44,7 @@
   <g transform="translate(20, 52)">
     <rect width="180" height="58" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
     <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Contest Rating</text>
-    <text x="14" y="46" fill="#fbbf24" class="code-font" font-size="18" font-weight="800" filter="url(#soft-glow-lc)">1,912 🛡️</text>
+    <text x="14" y="46" fill="#fbbf24" class="code-font" font-size="18" font-weight="800" filter="url(#soft-glow-lc)">1,942 🛡️</text>
     <rect x="110" y="30" width="58" height="18" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="0.8"/>
     <text x="117" y="43" fill="#fbbf24" class="code-font" font-size="9" font-weight="700">KNIGHT</text>
   </g>
@@ -53,8 +53,8 @@
   <g transform="translate(216, 52)">
     <rect width="180" height="58" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
     <text x="14" y="24" fill="#94a3b8" class="main-font" font-size="11" font-weight="500">Global Ranking</text>
-    <text x="14" y="46" fill="#38bdf8" class="code-font" font-size="17" font-weight="800">Top 4%</text>
-    <text x="95" y="45" fill="#64748b" class="code-font" font-size="10">#36,639</text>
+    <text x="14" y="46" fill="#38bdf8" class="code-font" font-size="17" font-weight="800">Top 3%</text>
+    <text x="95" y="45" fill="#64748b" class="code-font" font-size="10">#30,953</text>
   </g>
 
   <!-- Problem Solving Breakdown (Easy / Medium / Hard) -->
@@ -63,18 +63,18 @@
     
     <!-- Easy -->
     <text x="16" y="24" fill="#00b8a3" class="code-font" font-size="10" font-weight="700">EASY</text>
-    <text x="16" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">230</text>
+    <text x="16" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">232</text>
 
     <line x1="120" y1="12" x2="120" y2="48" stroke="#1e293b" stroke-width="1"/>
 
     <!-- Medium -->
     <text x="136" y="24" fill="#ffc01e" class="code-font" font-size="10" font-weight="700">MEDIUM</text>
-    <text x="136" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">454</text>
+    <text x="136" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">459</text>
 
     <line x1="250" y1="12" x2="250" y2="48" stroke="#1e293b" stroke-width="1"/>
 
     <!-- Hard -->
     <text x="266" y="24" fill="#ff375f" class="code-font" font-size="10" font-weight="700">HARD</text>
-    <text x="266" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">140</text>
+    <text x="266" y="44" fill="#e2e8f0" class="code-font" font-size="15" font-weight="700">142</text>
   </g>
 </svg>
